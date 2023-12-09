@@ -21,7 +21,6 @@
             <a th:href="@{/file/download/{id}(id=*{id})}" th:text="*{fileName}"></a>
         </li>
     </ul>
-
     <div class="btns">
         <a th:href="@{/board/write/{bId}(bId=${board.bId})}" th:text="#{글쓰기}"></a>
         <a th:href="@{/board/update/{seq}(seq=*{seq})}" th:text="#{글수정}"></a>
